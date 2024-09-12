@@ -9,7 +9,7 @@
 body{
     height: 100%;
     width: 100%;
-    background: url(../assets/images/background-pattern-desktop.svg) no-repeat;
+    background: url(/assets/images/background-pattern-desktop.svg) no-repeat;
     background-color: hsl(275, 100%, 97%);
     background-position: top;
     background-size: 100%;
@@ -57,7 +57,7 @@ main{
 button{
     width: 60px;
     height: 40px;
-    background: url(../assets/images/icon-plus.svg) no-repeat;
+    background: url(/assets/images/icon-plus.svg) no-repeat;
     background-position: center;
     border: none;
     cursor: pointer;
@@ -66,7 +66,7 @@ button{
 }
 @media (max-width: 500px) {
     body{
-        background: url(../assets/images/background-pattern-mobile.svg) no-repeat;
+        background: url(/assets/images/background-pattern-mobile.svg) no-repeat;
         background-color: hsl(275, 100%, 97%);
         background-position: top;
         background-size: 100%;
